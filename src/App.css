@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+
+
+.info{
+  min-width: 100%;
+  overflow: hidden;
+}
+.profile-name{  
+  font-family: 'Rock Salt', cursive !important;
+  font-size: 30px !important;
+  overflow:visible ;
+}
+.info1{
+  background-color:rgba(72, 49, 212, 1);
+  min-height: 90vh;
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.profile-box{
+  position: relative;
+  left: -200px;
+  background-color: white;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  place-content: center;
+  width: 350px;
+  height:350px;
+  display: grid;
+  border: solid white 4px;
+  background-color: rgba(0, 255, 255, 0);
+
+}
+.profile-pic{
+  position: relative;
+  left: -40px;
+  top: -40px;
+  width: 350px;
+  height:350px; 
+  object-fit: cover;
+  
+}
+.info2{
+  background-color: rgba(204, 243, 129, 1);
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+.header1{
+  color: rgba(204, 243, 129, 1);
+  font-size: 60px;
+  padding: 0px;
+}
+.header2{
+  color: rgba(204, 243, 129, 1);
+  place-content: center;
+  text-align: center;
+  padding: 0px;
+}
+.header3{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color:rgba(204, 243, 129, 1);
+}
+.para1{
+  max-width: 35%;
+  color: rgba(241, 239, 252, 1);
+}
+.quote{
+  overflow: hidden;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.img1{
+  width: 300px;
+  height: 300px;
+}
+.para2{
+  font-size: 100px;
+  position:relative;
+  bottom:-40px;
+  color: rgba(203, 243, 129, 0.424);;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.skill-div1{
+  min-width: 100%;
+  min-height: 100vh; 
+  background-image: linear-gradient(to bottom, #0b4374, #10588f, #136dab, #1084c8, #039be5);
+}
+.skill-div2{
+  margin-top: 30px;
+  min-width: 100%;
+  background-color: #0b437490;
+  border-radius: 5px;
+  box-shadow: -1px 1px 13px -2px rgba(255,255,255,1);
+  /* background-image: linear-gradient(to bottom, #0b4374, #10588f, #136dab, #1084c8, #039be5); */
+}
+
+.dotts{
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.skill-card{
+  background-color: rgba(0, 0, 0, 0) !important;
+  width: 100px;
+  height: 50px;
+  border: noborder;
+}
+.works-div{
+  padding: 0px;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(198, 115, 207);
+}
+.contact-div{
+  padding: 0px;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(107, 138, 166);
+}
+.resume-div{
+  padding: 0px;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(206, 211, 130);
+}
+
+@media(max-width: 1000px){
+  .info2{
+    background-color: rgba(204, 243, 129, 1);
+    /* display: grid; */
+    place-content: center;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .profile-box{
+    text-align: center;
+    margin-left: 350px;
+    background-color: rgba(0, 255, 255, 0);
+  
   }
+   
+
 }
