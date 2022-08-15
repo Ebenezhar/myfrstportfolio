@@ -1,16 +1,16 @@
-
-
-.info{
+.info {
   min-width: 100%;
   overflow: hidden;
 }
-.profile-name{  
+
+.profile-name {
   font-family: 'Rock Salt', cursive !important;
   font-size: 30px !important;
-  overflow:visible ;
+  overflow: visible;
 }
-.info1{
-  background-color:rgba(72, 49, 212, 1);
+
+.info1 {
+  background-color: rgba(72, 49, 212, 1);
   min-height: 90vh;
   padding: 0px;
   margin: 0px;
@@ -18,29 +18,31 @@
 
 
 
-.profile-box{
+.profile-box {
   position: relative;
   left: -200px;
   background-color: white;
   align-items: center;
   place-content: center;
   width: 350px;
-  height:350px;
+  height: 350px;
   display: grid;
   border: solid white 4px;
   background-color: rgba(0, 255, 255, 0);
 
 }
-.profile-pic{
+
+.profile-pic {
   position: relative;
   left: -40px;
   top: -40px;
   width: 350px;
-  height:350px; 
+  height: 350px;
   object-fit: cover;
-  
+
 }
-.info2{
+
+.info2 {
   background-color: rgba(204, 243, 129, 1);
   padding: 0px;
   margin: 0px;
@@ -48,98 +50,161 @@
   place-content: center;
   min-height: 100vh;
 }
-.header1{
+
+.header1 {
   color: rgba(204, 243, 129, 1);
   font-size: 60px;
   padding: 0px;
 }
-.header2{
-  color: rgba(204, 243, 129, 1);
+
+.header2 {
+  color: rgb(10, 10, 9);
   place-content: center;
   text-align: center;
   padding: 0px;
 }
-.header3{
+
+.header3 {
   font-family: 'Montserrat Subrayada', sans-serif;
-  color:rgba(204, 243, 129, 1);
+  color: rgb(20, 29, 4);
 }
-.para1{
+
+.para1 {
   max-width: 35%;
   color: rgba(241, 239, 252, 1);
 }
-.quote{
+
+.quote {
   overflow: hidden;
-  
+
 }
 
-.img1{
+.img1 {
   width: 300px;
   height: 300px;
 }
-.para2{
+
+.para2 {
   font-size: 100px;
-  position:relative;
-  bottom:-40px;
-  color: rgba(203, 243, 129, 0.424);;
+  position: relative;
+  bottom: -40px;
+  color: rgba(203, 243, 129, 0.424);
   
 }
 
-.skill-div1{
+.skill-div1 {
   min-width: 100%;
-  min-height: 100vh; 
-  background-image: linear-gradient(to bottom, #0b4374, #10588f, #136dab, #1084c8, #039be5);
-}
-.skill-div2{
-  margin-top: 30px;
-  min-width: 100%;
-  background-color: #0b437490;
-  border-radius: 5px;
-  box-shadow: -1px 1px 13px -2px rgba(255,255,255,1);
+  min-height: 100vh;
   /* background-image: linear-gradient(to bottom, #0b4374, #10588f, #136dab, #1084c8, #039be5); */
 }
 
-.dotts{
+.skill-div2 {
+  margin-top: 30px;
+  min-width: 100%;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.75);
+  /* background-image: linear-gradient(to bottom, #0b4374, #10588f, #136dab, #1084c8, #039be5); */
+}
+
+.contact-text1{
+  padding-left: 200px!important;
+  padding-right: 200px!important;
+  padding-top: 50px!important;
+}
+
+.contact-text2{
+  padding-left: 200px!important;
+  padding-right: 200px!important;
+}
+.dotts {
   padding-left: 50px;
   padding-bottom: 20px;
 }
-.skill-card{
+
+.social-div{
+  background-color: burlywood;
+}
+
+.skill-card {
   background-color: rgba(0, 0, 0, 0) !important;
   width: 100px;
   height: 50px;
   border: noborder;
 }
-.works-div{
+
+.works-div {
   padding: 0px;
   min-width: 100%;
   min-height: 100vh;
   background-color: rgb(198, 115, 207);
 }
-.contact-div{
+
+.contact-div {
   padding: 0px;
   min-width: 100%;
   min-height: 100vh;
-  background-color: rgb(107, 138, 166);
-}
-.resume-div{
-  padding: 0px;
-  min-width: 100%;
-  min-height: 100vh;
-  background-color: rgb(206, 211, 130);
+  background-color: white;
 }
 
-@media(max-width: 1000px){
-  .info2{
+.resume-div {
+  padding: 0px;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(130, 153, 211);
+}
+
+
+.container-div{
+  background-color:aliceblue;
+  border-radius: 5px;
+  height: 100%;
+
+}
+
+
+.logo-div {
+  height: 100%;
+  background-color: royalblue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.75);
+}
+.link-div{
+  background-color: black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.link-content{
+  font-size: 30px;
+}
+
+.work-div{
+  background-color: aqua;
+}
+.work-content {
+  height: 200px;
+  background-color: aqua;
+}
+
+@media(max-width: 1000px) {
+  .info2 {
     background-color: rgba(204, 243, 129, 1);
     /* display: grid; */
     place-content: center;
-    
+
   }
-  .profile-box{
+
+  .profile-box {
     text-align: center;
     margin-left: 350px;
     background-color: rgba(0, 255, 255, 0);
-  
+
   }
-   
+
+  .work-content {
+    
+    background-color: rgb(87, 186, 74);
+  }
 
 }

@@ -7,7 +7,7 @@ function Info() {
     <div className='row info' >
       <div className='col-lg-9 info1' >
         <div className='col p-5'>
-          <h1 className='header1'>Frontend</h1>
+          <h1 className='header1'>Fullstack</h1>
           <h1 className='header1'>Developer.</h1>
           <p className='para1 pt-4'>I belive in web design can be more diverse and inspiring. With a mission to present the possibilities of web design, I am pursuing new expressions through experiments and thoughts</p>
         </div>

@@ -77,7 +77,7 @@ function Skills() {
 
   ]
   return (
-    <div className="container skill-div1 p-5">
+    <div className="container skill-div1 pl-5 pr-5 pb-5">
       <h2 className='header3 m-5'> Skills</h2>
       <div className="container">
         <div className="row justify-content-center mt-2 p-3 skill-div2">
@@ -96,4 +96,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Skills 
