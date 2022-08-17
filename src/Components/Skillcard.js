@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skillcard({ data }) {
     return (
-        <div className='card m-2 skill-card' style={{ width: "10rem" }}>
+        <div className='card m-2 skill-card' data-aos-once="true" data-aos="fade-up" data-aos-duration="500" style={{ width: "10rem" }}>
             <div className='row '>
                 <div className='col-lg-12  justify-content-center'>
                     <img class="img-fluid" src={data.logo} />
