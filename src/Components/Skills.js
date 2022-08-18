@@ -14,9 +14,12 @@ import heroku from './heroku logo.svg'
 import postman from './postman logo.svg'
 import github from './github logo.svg'
 import Skillcard from './Skillcard'
+import { useNavigate } from 'react-router-dom'
 
 
 function Skills() {
+  const navigate = useNavigate();
+
   const skills = [
     {
       name: "Java Script",
@@ -76,9 +79,15 @@ function Skills() {
     },
 
   ]
+
   return (
-    <div className="container skill-div1 p-5">
-      <h2 className='header3 m-5'> Skills</h2>
+
+    <div className="container skill-div1 pl-5 pr-5 pb-5">
+      <div className='row'>
+        <div className='col-lg-6'>
+          <h2 className='header3 m-5'> Skills</h2>
+        </div>
+      </div>
       <div className="container">
         <div className="row justify-content-center mt-2 p-3 skill-div2">
           {
@@ -88,12 +97,12 @@ function Skills() {
           }
           <div><h2 className="dotts ">.....</h2></div>
         </div>
-        
       </div>
 
-
     </div>
+
+
   )
 }
 
-export default Skills
+export default Skills 
