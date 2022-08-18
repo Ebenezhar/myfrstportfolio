@@ -9,7 +9,7 @@ function Info() {
           <div className='col p-5'>
             <h1 className='header1' data-aos-once="true" data-aos="fade-right">Full Stack</h1>
             <h1 className='header1' data-aos-once="true" data-aos="fade-right">Developer.</h1>
-            <p className='para1 pt-4' data-aos-once="true" data-aos="fade-right">I belive in web design can be more diverse and inspiring. With a mission to present the possibilities of web design, I am pursuing new expressions through experiments and thoughts.</p>
+            <p className='para1 pt-4' data-aos-once="true" data-aos="fade-right">I belive in web design can be more diverse and inspiring. With a mission to present the possibilities of web design, I am pursuing new expressions through experiments and thoughts.n</p>
           </div>
           <div className='quote pt-5'>
             <p className='para2' data-aos-once="true" data-aos="fade-up">Seize your moment</p>

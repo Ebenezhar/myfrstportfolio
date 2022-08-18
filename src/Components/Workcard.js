@@ -4,7 +4,7 @@ import React from 'react'
 
 function Workcard({data}) {
     return (
-        <div className="col-lg-12 pt-3 pr-3 pb-3 container-div" data-aos-once="true" data-aos="zoom-in-down" data-aos-duration="500">
+        <div className="col-lg-12 pt-3 pr-3 pb-3 container-div" data-aos-once="true" data-aos="zoom-in-down" >
             <div className="container text-center">
                 <div className="row">
                     <div className="col-lg-3 p-4 logo-div">

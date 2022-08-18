@@ -21,28 +21,26 @@ function Works() {
   ]
 
   return (
-    <AnimatedPage>
-      <div className="container works-div1 pl-5 pr-5 pb-5">
-        <div className='row'>
-          <div className='col-lg-6'>
-            <h2 className='header3 m-5'> Works</h2>
-          </div>
-        </div>
-        <div className="col-lg-12 m-2">
-          <div className="row p-4 justify-content-center mt-2 ">
-            {
-              projects.map((project) => {
-                return (
-                  <div className="col-lg-5 p-2 m-2  card-div">
-                    <Workcard data={project} />
-                  </div>
-                )
-              })
-            }
-          </div>
+    <div className="container works-div1 pl-5 pr-5 pb-5">
+      <div className='row'>
+        <div className='col-lg-6'>
+          <h2 className='header3 m-5'> Works</h2>
         </div>
       </div>
-    </AnimatedPage>
+      <div className="col-lg-12 m-2">
+        <div className="row p-4 justify-content-center mt-2 ">
+          {
+            projects.map((project) => {
+              return (
+                <div className="col-lg-5 p-2 m-2  card-div">
+                  <Workcard data={project} />
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+    </div>
 
   )
 }

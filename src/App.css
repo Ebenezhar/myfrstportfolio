@@ -199,28 +199,30 @@
   padding: 0px;
   min-width: 100%;
   min-height: 100vh;
-  background-color: #F0FFFF;
+  background-color: #3d155f ;
+  color: rgba(204, 243, 129, 1);
 }
 
 .works-div1{
   min-width: 100%;
   min-height: 100vh;
-  background-color: 	#F5FFFA;
+  background-color: 	rgb(132, 118, 226);
 }
 
 .resume-div {
   padding: 30px;
   min-width: 100%;
   min-height: 100vh;
-  background-color: rgb(130, 153, 211);
+  background-color: rgb(227, 255, 174);
 }
 .resumeimg-div{
   padding-left: 110px;
   text-align: center;
 }
 
+
 .container-div{
-  background-color:rgb(204, 142, 142);
+  background-color:#ffff;
   border-radius: 5px;
   height: 100%;
   border: 2px solid black;
@@ -246,6 +248,10 @@
   font-size: 30px;
 }
 
+.linked-in{
+  color: black;
+}
+
 .work-div{
   background-color: aqua;
 }
@@ -254,6 +260,20 @@
   background-color: aqua;
 }
 
+
+@media(max-width:700px){
+  .contact-text1 {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 10px!important;
+  }
+  .contact-text2 {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 10px!important;
+  }
+  
+}
 @media(max-width: 1000px) {
   .info2 {
     background-color: rgba(204, 243, 129, 1);
@@ -261,7 +281,6 @@
     place-content: center;
 
   }
-
   .profile-box {
     text-align: center;
     margin-left: 350px;
