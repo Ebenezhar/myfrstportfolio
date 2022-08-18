@@ -18,7 +18,7 @@ function ForContact() {
           <h5 className='text-start contact-text1' data-aos-once="true" data-aos="fade-left">I am currently open to work in software developments. My inbox is always open if you want to communicate with me. Hit me up if you have some question I'll try to get back to you as soon as I can, or you just to say hey</h5>
           <h5 className='text-start contact-text2'data-aos-once="true" data-aos="fade-left">- send me an email or shoot me a message on <a target="_blank" href='https://www.linkedin.com/in/ebenezhar-selvakumar-059559136/'>LinkedIn!</a></h5>
           <h5 className='text-center p-3' data-aos-once="true" data-aos="fade-right"><i class="fa-solid fa-phone" ></i> +91-7010491206</h5>
-          <h5 className='text-center' data-aos-once="true" data-aos="fade-left"><i class="fa-solid fa-envelope" ></i> ebenezharselvakumar@gamil.com</h5>
+          <h5 className='text-center' data-aos-once="true" data-aos="fade-left"><i class="fa-solid fa-envelope" ></i> ebenezharselvakumar@gmail.com</h5>
           <h5 className='text-center p-3' data-aos-once="true" data-aos="fade-right"><i class="fa-solid fa-location-pin" ></i> Tanjore, India</h5>
         </div>
         <div className='row d-flex justify-content-between'>
@@ -26,9 +26,9 @@ function ForContact() {
             <h5 className='text-center p-3' >Created by Ebenezhar selvakumar</h5>
           </div>
           <div className='col-lg-6 text-center'>
-            <a className="m-1 link-content" target="_blank" href="google.com"><img class="img-fluid" src={facebook} /></a>
-            <a className="m-1 link-content" target="_blank" href="google.com"><img class="img-fluid" src={instagram} /></a>
-            <a className="m-1 link-content" target="_blank" href="google.com"><img class="img-fluid" src={twitter} /></a>
+            <a className="m-1 link-content" target="_blank" href="https://www.facebook.com/ebenezhar.kumar"><img class="img-fluid" src={facebook} /></a>
+            <a className="m-1 link-content" target="_blank" href="https://www.instagram.com/ebenezhar/"><img class="img-fluid" src={instagram} /></a>
+            <a className="m-1 link-content" target="_blank" href="https://twitter.com/ebenezhar"><img class="img-fluid" src={twitter} /></a>
           </div>
         </div>
       </div>

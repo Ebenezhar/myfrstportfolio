@@ -15,7 +15,6 @@ import postman from './postman logo.svg'
 import github from './github logo.svg'
 import Skillcard from './Skillcard'
 import { useNavigate } from 'react-router-dom'
-import AnimatedPage from '../AnimatedPage'
 
 
 function Skills() {

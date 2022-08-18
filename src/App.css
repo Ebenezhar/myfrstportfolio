@@ -4,6 +4,7 @@
 }
 
 .profile-name {
+  margin-right: 220px !important;
   font-family: 'Cinzel', serif !important;
   font-size: 30px !important;
   overflow: visible;
@@ -137,7 +138,8 @@
 }
 
 .para2 {
-  font-size: 100px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 120px;
   position: relative;
   bottom: -40px;
   color: rgba(203, 243, 129, 0.424);
@@ -207,12 +209,15 @@
 }
 
 .resume-div {
-  padding: 0px;
+  padding: 30px;
   min-width: 100%;
   min-height: 100vh;
   background-color: rgb(130, 153, 211);
 }
-
+.resumeimg-div{
+  padding-left: 110px;
+  text-align: center;
+}
 
 .container-div{
   background-color:rgb(204, 142, 142);
