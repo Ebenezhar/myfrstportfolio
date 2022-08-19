@@ -9,7 +9,7 @@ function Works() {
       name: "Stack Overflow",
       tech: "Reactjs / Nodejs / MongoDB / Redux / JWT / Cookies",
       git: "https://github.com/Ebenezhar/stackfront",
-      netlify: "https://sprightly-longma-428d2c.netlify.app"
+      netlify: "https://stackoverflow-2022.netlify.app/"
     },
     {
       lottie: "https://assets4.lottiefiles.com/packages/lf20_q6wsiidu.json",
