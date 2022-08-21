@@ -10,7 +10,7 @@ function ForContact() {
     <div className="container contact-div pl-5 pr-5 pb-5">
       <div className='row'>
         <div className='col-lg-6'>
-          <h2 className='header3 m-5'> For Contact</h2>
+          <h2 className='header3 m-5'></h2>
         </div>
       </div>
       <div className="col-lg-12 pl-5 pr-5 pb-5 ">
