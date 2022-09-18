@@ -7,7 +7,10 @@ function Resume() {
     <div className='container resume-div pl-5 pr-5 pb-5'>
       <h2 className='header3 p-5 mr-5 ml-5 mb-5'> Resume</h2>
       <div className="col-lg-12 ">
-        <img className="resumeimg-div" data-aos-once="true" data-aos="fade-up-left" src={resume}/>
+        <a className='col-lg-12  justify-content-center' target="_blank" href='https://drive.google.com/file/d/19Ltd9qwu4S4gXdRBUgw88oV0YUlkrNa-/view?usp=sharing'>Resume</a>
+
+
+        {/* <img className="resumeimg-div" data-aos-once="true" data-aos="fade-up-left" src={resume} /> */}
         {/* <Player
           className="justify-content-start"
           autoplay
