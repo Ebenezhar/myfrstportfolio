@@ -6,16 +6,25 @@ function Works() {
   const projects = [
     {
       lottie: "https://assets1.lottiefiles.com/packages/lf20_dx3CMu.json",
-      name: "Stack Overflow",
-      tech: "Reactjs / Nodejs / MongoDB / Redux / JWT / Cookies",
-      git: "https://github.com/Ebenezhar/stackfront",
+      name: "Stack Overflow Clone",
+      tech: "Reactjs / Nodejs / MongoDB / JWT / Cookies / Bootstrap",
+      gitFront: "https://github.com/Ebenezhar/stackfront",
+      gitServer: "https://github.com/Ebenezhar/stackserver",
       netlify: "https://stackoverflow-2022.netlify.app/"
+    },
+    {
+      lottie: "https://assets4.lottiefiles.com/packages/lf20_oerkhzf4.json",
+      name: "Bulk Mailer",
+      tech: "Reactjs / Nodejs / Mongoose / JWT / Cookies / Tailwind / Node Mailer ",
+      gitFront: "https://github.com/Ebenezhar/bulkmailerfront",
+      gitServer: "https://github.com/Ebenezhar/bulkmailerserver",
+      netlify: "https://e-commerce-752579.netlify.app/"
     },
     {
       lottie: "https://assets4.lottiefiles.com/packages/lf20_q6wsiidu.json",
       name: "e-Commerce Application",
-      tech: "Reactjs / bootstrap/ Cookies /Reactjs / bootstrap/ Cookies ",
-      git: "https://github.com/Ebenezhar/Cart-Task",
+      tech: "Reactjs / bootstrap/ Cookies ",
+      gitFront: "https://github.com/Ebenezhar/Cart-Task",
       netlify: "https://e-commerce-752579.netlify.app/"
     },
   ]

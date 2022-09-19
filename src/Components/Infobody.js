@@ -11,7 +11,7 @@ function Infobody() {
   return (
     <AnimatedPage>
       <div >
-        <div ><Info /></div> 
+        <div ><Info /></div>
         <div ><Skills /></div>
         <div ><Works /></div>
         <div ><Resume /></div>

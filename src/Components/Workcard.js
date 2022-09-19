@@ -2,7 +2,7 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player'
 import React from 'react'
 
 
-function Workcard({data}) {
+function Workcard({ data }) {
     return (
         <div className="col-lg-12 pt-3 pr-3 pb-3 container-div" data-aos-once="true" data-aos="zoom-in-down" >
             <div className="container text-center">
@@ -27,10 +27,13 @@ function Workcard({data}) {
                         <h5>{data.tech} </h5>
                     </div>
                     <div className="col-lg-1 p-2 link-div">
-                      <div row>
-                      <a className="m-1 link-content" target="_blank" href={data.git}><i class="fa-brands fa-github"></i></a>
-                      <a className="m-1 link-content" target="_blank" href={data.netlify}><i class="fa-solid fa-earth-americas"></i></a>
-                      </div>
+                        <div row>
+                            <a className="m-1 link-content" target="_blank" href={data.netlify}><i class="fa-solid fa-earth-americas"></i></a>
+                            {
+                                data.gitServer ? <a className="m-1 link-content" target="_blank" href={data.gitFront}><i class="fa-brands fa-github"></i></a> : null
+                            }
+                            <a className="m-1 link-content" target="_blank" href={data.gitServer}><i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
