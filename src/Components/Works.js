@@ -18,7 +18,7 @@ function Works() {
       tech: "Reactjs / Nodejs / Mongoose / JWT / Cookies / Tailwind / Node Mailer ",
       gitFront: "https://github.com/Ebenezhar/bulkmailerfront",
       gitServer: "https://github.com/Ebenezhar/bulkmailerserver",
-      netlify: "https://e-commerce-752579.netlify.app/"
+      netlify: "https://bulkmailertool.netlify.app/"
     },
     {
       lottie: "https://assets4.lottiefiles.com/packages/lf20_q6wsiidu.json",
