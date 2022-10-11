@@ -85,7 +85,7 @@ function Skills() {
     <div className="container skill-div1 pl-5 pr-5 pb-5">
       <div className='row'>
         <div className='col-lg-6'>
-          <h2 className='header3 m-5'> Skills</h2>
+          <h2 className='header3 m-5'>KEY Skills</h2>
         </div>
       </div>
       <div className="container">

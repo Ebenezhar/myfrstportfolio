@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg nav-style" data-aos-once="true" data-aos="fade-down" style={{ position: "sticky" }}>
       <div className="container-fluid ">
-        <a className="btn navbar-brand px-lg-2 profile-name" href="/">EBENEZHAR</a>
+        <a className="btn navbar-brand px-md-2 profile-name " href="/">EBENEZHAR</a>
         <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
