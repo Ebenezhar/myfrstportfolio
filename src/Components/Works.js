@@ -25,6 +25,7 @@ function Works() {
       name: "Doctor Appointment",
       tech: "Redux/ Reactjs / Nodejs / Mongoose / CSS / JWT / Local Storage",
       gitFront: "https://github.com/Ebenezhar/doctor-front",
+      gitServer: "https://github.com/Ebenezhar/doctor-server",
       netlify: "https://doctor-appointment-booker.netlify.app"
     },
     {
@@ -32,6 +33,7 @@ function Works() {
       name: "Chat Application Clone",
       tech: "Reactjs / Nodejs / React-Bootstrap / Local Storage ",
       gitFront: "https://github.com/Ebenezhar/chat-app-fe",
+      gitServer: "https://github.com/Ebenezhar/chat-app-be",
       netlify: "https://chatapp-clone.netlify.app"
     },
   ]
