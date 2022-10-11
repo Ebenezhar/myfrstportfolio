@@ -30,7 +30,7 @@ function Works() {
     {
       lottie: "https://assets6.lottiefiles.com/packages/lf20_eYXADRNJPy.json",
       name: "Chat Application Clone",
-      tech: "Reactjs / Nodejs / React-Bootstrap / Local Storage / Cookies",
+      tech: "Reactjs / Nodejs / React-Bootstrap / Local Storage ",
       gitFront: "https://github.com/Ebenezhar/chat-app-fe",
       netlify: "https://chatapp-clone.netlify.app"
     },
