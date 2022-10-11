@@ -7,7 +7,7 @@ function Works() {
     {
       lottie: "https://assets1.lottiefiles.com/packages/lf20_dx3CMu.json",
       name: "Stack Overflow Clone",
-      tech: "Reactjs / Nodejs / MongoDB / JWT / Cookies / Bootstrap",
+      tech: "Reactjs / Nodejs / MongoDB / JWT / Local Storage / Bootstrap",
       gitFront: "https://github.com/Ebenezhar/stackfront",
       gitServer: "https://github.com/Ebenezhar/stackserver",
       netlify: "https://stackoverflow-2022.netlify.app/"
@@ -15,17 +15,24 @@ function Works() {
     {
       lottie: "https://assets4.lottiefiles.com/packages/lf20_oerkhzf4.json",
       name: "Bulk Mailer",
-      tech: "Reactjs / Nodejs / Mongoose / JWT / Cookies / Tailwind / Node Mailer ",
+      tech: "Reactjs / Nodejs / Mongoose / JWT / Local Storage / Tailwind / Node Mailer ",
       gitFront: "https://github.com/Ebenezhar/bulkmailerfront",
       gitServer: "https://github.com/Ebenezhar/bulkmailerserver",
       netlify: "https://bulkmailertool.netlify.app/"
     },
     {
-      lottie: "https://assets4.lottiefiles.com/packages/lf20_q6wsiidu.json",
-      name: "e-Commerce Application",
-      tech: "Reactjs / bootstrap/ Cookies ",
-      gitFront: "https://github.com/Ebenezhar/Cart-Task",
-      netlify: "https://e-commerce-752579.netlify.app/"
+      lottie: "https://assets4.lottiefiles.com/packages/lf20_wkocfvps.json",
+      name: "Doctor Appointment",
+      tech: "Redux/ Reactjs / Nodejs / Mongoose / CSS / JWT / Local Storage",
+      gitFront: "https://github.com/Ebenezhar/doctor-front",
+      netlify: "https://doctor-appointment-booker.netlify.app"
+    },
+    {
+      lottie: "https://assets6.lottiefiles.com/packages/lf20_eYXADRNJPy.json",
+      name: "Chat Application Clone",
+      tech: "Reactjs / Nodejs / React-Bootstrap / Local Storage / Cookies",
+      gitFront: "https://github.com/Ebenezhar/chat-app-fe",
+      netlify: "https://chatapp-clone.netlify.app"
     },
   ]
 
