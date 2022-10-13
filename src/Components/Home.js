@@ -7,12 +7,12 @@ import {
 
 function Home() {
   return (
-    <div className="col-lg-12">
-    <Navbar />
-    <div className="container-fluid">
-      <Outlet />
+    <div style={{ "overflow-x": "hidden" }} className="col-lg-12">
+      <Navbar />
+      <div className="container-fluid">
+        <Outlet />
+      </div>
     </div>
-  </div>
   )
 }
 

@@ -21,15 +21,15 @@ function ForContact() {
         <h5 className='text-center' data-aos-once="true" data-aos="fade-left"><i class="fa-solid fa-envelope" ></i> ebenezharselvakumar@gmail.com</h5>
         <h5 className='text-center p-3' data-aos-once="true" data-aos="fade-right"><i class="fa-solid fa-location-pin" ></i> Tanjore, India</h5>
       </div>
-      <div className='row d-flex end-container justify-content-between'>
+      <div className='row d-flex end-container justify-content-end'>
         <div className='col-lg-6'>
           <h5 className='text-center p-3' >Created by Ebenezhar selvakumar</h5>
         </div>
-        <div className='col-lg-6 text-center'>
+        {/* <div className='col-lg-6 text-center'>
           <a className="m-1 link-content" target="_blank" href="https://www.facebook.com/ebenezhar.kumar"><img class="img-fluid" src={facebook} /></a>
           <a className="m-1 link-content" target="_blank" href="https://www.instagram.com/ebenezhar/"><img class="img-fluid" src={instagram} /></a>
           <a className="m-1 link-content" target="_blank" href="https://twitter.com/ebenezhar"><img class="img-fluid" src={twitter} /></a>
-        </div>
+        </div> */}
       </div>
     </div>
 
