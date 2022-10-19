@@ -18,7 +18,7 @@ function Info() {
               data-aos-once="true"
               data-aos="fade-right"
             >
-              I belive in web design can be more diverse and inspiring. With a
+              I belive in web developement can be more diverse and inspiring. With a
               mission to present the possibilities of web design, I am pursuing
               new expressions through experiments and thoughts.
             </p>
